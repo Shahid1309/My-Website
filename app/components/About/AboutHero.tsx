@@ -8,7 +8,7 @@ export default function AboutHero() {
           <div>
             <h1 className="heading-primary mb-6">
               About
-              <span className="text-gray-600"> Luxe Interiors HOme</span>
+              <span className="text-gray-600"> Luxe Interiors HOME</span>
             </h1>
             <p className="text-body text-xl mb-8">
               Founded on the belief that exceptional design has the power to transform lives, we've been creating stunning interior spaces for over a decade.
