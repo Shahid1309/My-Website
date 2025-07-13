@@ -45,4 +45,21 @@
   .text-body {
     @apply text-gray-600 leading-relaxed;
   }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-slide {
+    animation: slide 30s linear infinite;
+  }
+
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
 }
