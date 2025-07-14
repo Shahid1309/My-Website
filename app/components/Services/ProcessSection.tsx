@@ -1,12 +1,30 @@
 export default function ProcessSection() {
   const phases = [
-    {
-      step: '01',
-      title: 'Initial Consultation',
-      description: 'We discuss your vision, needs, and budget to understand your project goals.',
-      duration: '1-2 hours'
-    },
-    // ... other phases
+     {
+                step: '01',
+                title: 'Initial Consultation',
+                description: 'We discuss your vision, needs, and budget to understand your project goals.',
+                duration: '1-2 hours'
+              },
+              {
+                step: '02',
+                title: 'Design Development',
+                description: 'Our team creates detailed plans, mood boards, and 3D visualizations.',
+                duration: '2-3 weeks'
+              },
+              {
+                step: '03',
+                title: 'Implementation',
+                description: 'We coordinate with contractors and manage all aspects of the project.',
+                duration: '4-12 weeks'
+              },
+              {
+                step: '04',
+                title: 'Final Styling',
+                description: 'We add the finishing touches and ensure every detail is perfect.',
+                duration: '1-2 days'
+              }
+   
   ];
 
   return (
