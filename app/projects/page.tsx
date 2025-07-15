@@ -1,6 +1,6 @@
 
 
-
+"use client";
 
 import ProjectsHero from '@/app/components/Projects/ProjectsHero';
 import ProjectsFilter from '@/app/components/Projects/ProjectsFilter';
@@ -8,6 +8,7 @@ import ProjectsGrid from '@/app/components/Projects/ProjectsGrid';
 import ProjectsStats from '@/app/components/Projects/ProjectsStats';
 import ProjectsTestimonial from '@/app/components/Projects/ProjectsTestimonial';
 import ProjectsCTA from '@/app/components/Projects/ProjectsCTA';
+import { useState } from 'react';
 
 export interface Project {
   id: number;
@@ -19,6 +20,7 @@ export interface Project {
   description: string;
 }
 export default function Projects() {
+  const [activeCategory, setActiveCategory] = useState('All');
   const projects: Project[] = [
  {
       id: 1,
@@ -75,12 +77,19 @@ export default function Projects() {
       description: 'A dynamic workspace that fosters creativity and collaboration for a growing tech company.'
     }
   ];
+  const filteredProjects = activeCategory === 'All' 
+    ? projects 
+    : projects.filter(project => project.category === activeCategory);
 
   return (
     <main className="pt-20">
       <ProjectsHero />
-      <ProjectsFilter />
-      <ProjectsGrid projects={projects} />
+      
+      <ProjectsFilter 
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+      />
+      <ProjectsGrid projects={filteredProjects} />
       <ProjectsStats />
       <ProjectsTestimonial />
       <ProjectsCTA />

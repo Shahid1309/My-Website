@@ -19,7 +19,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 lg:px-24">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="font-playfair text-2xl font-semibold text-black">
-            Luex Interior
+            BlueShine Associate
           </Link>
           
           {/* Desktop Navigation */}

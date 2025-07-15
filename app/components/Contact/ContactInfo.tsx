@@ -15,7 +15,7 @@ export default function ContactInfo() {
             <h3 className="font-medium text-gray-900 mb-1">Visit Our Studio</h3>
             <p className="text-body">
               123 Design Street<br />
-              New York, NY 10001
+              New Delhi, ND 110025
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function ContactInfo() {
           </div>
           <div>
             <h3 className="font-medium text-gray-900 mb-1">Call Us</h3>
-            <p className="text-body">+1 (555) 123-4567</p>
+            <p className="text-body">+91 (999) 123-4567</p>
           </div>
         </div>
         
@@ -40,7 +40,7 @@ export default function ContactInfo() {
           </div>
           <div>
             <h3 className="font-medium text-gray-900 mb-1">Email Us</h3>
-            <p className="text-body">hello@luxeinteriors.com</p>
+            <p className="text-body">Blueshineassociate.com</p>
           </div>
         </div>
         

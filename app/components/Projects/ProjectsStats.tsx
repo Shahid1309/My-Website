@@ -5,7 +5,7 @@ export default function ProjectsStats() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { number: '150+', label: 'Projects Completed' },
-            { number: '12+', label: 'Years Experience' },
+            { number: '7+', label: 'Years Experience' },
             { number: '98%', label: 'Client Satisfaction' },
             { number: '25+', label: 'Design Awards' }
           ].map((stat, index) => (
