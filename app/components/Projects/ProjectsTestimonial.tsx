@@ -1,27 +1,4 @@
-// export default function ProjectsTestimonial() {
-//   return (
-//     <section className="section-padding bg-white">
-//       <div className="max-w-4xl mx-auto text-center">
-//         <blockquote className="text-2xl md:text-3xl font-playfair font-light text-gray-900 mb-8 leading-relaxed">
-//           "Luxe Interiors transformed our home into something we never imagined possible. Their attention to detail and understanding of our lifestyle created spaces that are both beautiful and functional."
-//         </blockquote>
-//         <div className="flex items-center justify-center">
-//           <div className="w-16 h-16 bg-gray-200 rounded-full mr-4 overflow-hidden">
-//             <img
-//               src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=100"
-//               alt="Client testimonial"
-//               className="w-full h-full object-cover"
-//             />
-//           </div>
-//           <div className="text-left">
-//             <div className="font-medium">Jennifer Martinez</div>
-//             <div className="text-gray-600 text-sm">Homeowner, Westchester</div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
+
 
 
 'use client';
@@ -63,26 +40,7 @@ export default function ProjectsTestimonial() {
   return (
     <section className="section-padding bg-white">
       <div className="max-w-4xl mx-auto relative">
-        {/* Navigation Arrows */}
-        {/* <button 
-          onClick={prevTestimonial}
-          className="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 md:-ml-8 p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-all z-10"
-          aria-label="Previous testimonial"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </button> */}
         
-        {/* <button 
-          onClick={nextTestimonial}
-          className="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 md:-mr-8 p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-all z-10"
-          aria-label="Next testimonial"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button> */}
 
         {/* Testimonial Content */}
         <div className="overflow-hidden">
