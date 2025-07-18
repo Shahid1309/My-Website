@@ -10,9 +10,10 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
+      <PartnerLogos  />
       <ServicesPreview />
       <FeaturedProjects />
-      <PartnerLogos  />
+      
       <CtaSection />
     </main>
   );
