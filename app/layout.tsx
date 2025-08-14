@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-  title: 'Luxe Interiors - Premium Interior Design',
+  title: 'BlueShine Associates - Premium Interior Design',
   description: 'Transform your space with our premium interior design services. Modern, elegant, and timeless designs.',
 };
 
