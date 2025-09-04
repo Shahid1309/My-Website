@@ -10,6 +10,9 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 export const metadata: Metadata = {
   title: 'BlueShine Associates - Premium Interior Design',
   description: 'Transform your space with our premium interior design services. Modern, elegant, and timeless designs.',
+  icons: {
+    icon: '/fav.svg', 
+  },
 };
 
 export default function RootLayout({
