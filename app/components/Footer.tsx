@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6 max-w-md">
               Creating exceptional interior spaces that reflect your unique style and enhance your lifestyle.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <span className="sr-only">Instagram</span>
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -28,7 +28,7 @@ export default function Footer() {
                   <path d="M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zm5.568 8.16c-.169 1.858-.896 3.728-2.257 5.273-.686.781-1.557 1.302-2.568 1.302-.897 0-1.742-.442-2.257-1.302C9.104 11.888 8.377 10.018 8.208 8.16c-.169-1.858.442-3.728 1.803-5.273C10.697 2.106 11.568 1.585 12.568 1.585c.897 0 1.742.442 2.257 1.302 1.361 1.545 2.088 3.415 2.257 5.273z"/>
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
           
           <div>

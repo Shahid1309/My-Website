@@ -7,7 +7,16 @@ export default function ProjectsFilter({
   activeCategory, 
   setActiveCategory 
 }: ProjectsFilterProps) {
-  const categories = ['All', 'Residential', 'Commercial', 'Hospitality'];
+  const categories = [
+  'All',
+  'Residential',
+  'Commercial',
+  'Hospitality',
+  'Healthcare',
+  'Corporate / Office',
+  'Fabrication & Steel',
+  '3D Visualizations'
+];
   
   return (
     <section className="py-8 bg-white border-b border-gray-100">

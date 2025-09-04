@@ -1,6 +1,6 @@
 export default function ProjectsStats() {
   return (
-    <section className="section-padding bg-gray-50">
+    <section className="section-padding bg-gray-200">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[

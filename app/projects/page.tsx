@@ -9,6 +9,7 @@ import ProjectsStats from '@/app/components/Projects/ProjectsStats';
 import ProjectsTestimonial from '@/app/components/Projects/ProjectsTestimonial';
 import ProjectsCTA from '@/app/components/Projects/ProjectsCTA';
 import { useState } from 'react';
+import ProjectPortfolio from '../components/Projects/ProjectPortfolio';
 
 export interface Project {
   id: number;
@@ -84,14 +85,16 @@ export default function Projects() {
   return (
     <main className="pt-20">
       <ProjectsHero />
+
+      <ProjectPortfolio/>
       
-      <ProjectsFilter 
+      {/* <ProjectsFilter 
         activeCategory={activeCategory}
         setActiveCategory={setActiveCategory}
       />
-      <ProjectsGrid projects={filteredProjects} />
+      <ProjectsGrid projects={filteredProjects} /> */}
       <ProjectsStats />
-      <ProjectsTestimonial />
+      
       <ProjectsCTA />
     </main>
   );
